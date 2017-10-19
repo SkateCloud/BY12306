@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04210F1D1F8F09F800E0ED96 /* SheduleTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04210F1C1F8F09F800E0ED96 /* SheduleTicketsViewController.swift */; };
+		042628381F977DDD0083DBE0 /* TrainInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042628371F977DDC0083DBE0 /* TrainInformation.swift */; };
 		048E56601F8E2C2400D1B97A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E565F1F8E2C2400D1B97A /* AppDelegate.swift */; };
 		048E56621F8E2C2400D1B97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E56611F8E2C2400D1B97A /* ViewController.swift */; };
 		048E56651F8E2C2400D1B97A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E56631F8E2C2400D1B97A /* Main.storyboard */; };
 		048E56671F8E2C2400D1B97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E56661F8E2C2400D1B97A /* Assets.xcassets */; };
 		048E566A1F8E2C2400D1B97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E56681F8E2C2400D1B97A /* LaunchScreen.storyboard */; };
+		048E56721F8E339600D1B97A /* My12306TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E56711F8E339600D1B97A /* My12306TableView.swift */; };
+		048E56741F8E33CB00D1B97A /* My12306Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E56731F8E33CB00D1B97A /* My12306Cell.swift */; };
+		048E56771F8E37F200D1B97A /* BusinessTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E56761F8E37F200D1B97A /* BusinessTableView.swift */; };
+		04AF9DD61F8F8DC800D7F6FB /* OrderTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF9DD51F8F8DC800D7F6FB /* OrderTrackView.swift */; };
+		04B4E6E41F923578005B553F /* AddPassengerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E6E31F923578005B553F /* AddPassengerTable.swift */; };
+		04B4E6E61F93B459005B553F /* EditContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E6E51F93B458005B553F /* EditContact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04210F1C1F8F09F800E0ED96 /* SheduleTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleTicketsViewController.swift; sourceTree = "<group>"; };
+		042628371F977DDC0083DBE0 /* TrainInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainInformation.swift; sourceTree = "<group>"; };
 		048E565C1F8E2C2400D1B97A /* BY12306.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BY12306.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E565F1F8E2C2400D1B97A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048E56611F8E2C2400D1B97A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		048E56661F8E2C2400D1B97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E56691F8E2C2400D1B97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E566B1F8E2C2400D1B97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048E56711F8E339600D1B97A /* My12306TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My12306TableView.swift; sourceTree = "<group>"; };
+		048E56731F8E33CB00D1B97A /* My12306Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My12306Cell.swift; sourceTree = "<group>"; };
+		048E56761F8E37F200D1B97A /* BusinessTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableView.swift; sourceTree = "<group>"; };
+		04AF9DD51F8F8DC800D7F6FB /* OrderTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTrackView.swift; sourceTree = "<group>"; };
+		04B4E6E31F923578005B553F /* AddPassengerTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPassengerTable.swift; sourceTree = "<group>"; };
+		04B4E6E51F93B458005B553F /* EditContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04210F201F8F108400E0ED96 /* sheduleTicktes */ = {
+			isa = PBXGroup;
+			children = (
+				04210F1C1F8F09F800E0ED96 /* SheduleTicketsViewController.swift */,
+				04B4E6E31F923578005B553F /* AddPassengerTable.swift */,
+				04B4E6E51F93B458005B553F /* EditContact.swift */,
+				042628371F977DDC0083DBE0 /* TrainInformation.swift */,
+			);
+			path = sheduleTicktes;
+			sourceTree = "<group>";
+		};
 		048E56531F8E2C2400D1B97A = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +81,27 @@
 		048E565E1F8E2C2400D1B97A /* BY12306 */ = {
 			isa = PBXGroup;
 			children = (
-				048E565F1F8E2C2400D1B97A /* AppDelegate.swift */,
+				048E56751F8E35A300D1B97A /* 12306 */,
+				04210F201F8F108400E0ED96 /* sheduleTicktes */,
 				048E56611F8E2C2400D1B97A /* ViewController.swift */,
+				04AF9DD51F8F8DC800D7F6FB /* OrderTrackView.swift */,
+				048E56761F8E37F200D1B97A /* BusinessTableView.swift */,
 				048E56631F8E2C2400D1B97A /* Main.storyboard */,
+				048E565F1F8E2C2400D1B97A /* AppDelegate.swift */,
 				048E56661F8E2C2400D1B97A /* Assets.xcassets */,
 				048E56681F8E2C2400D1B97A /* LaunchScreen.storyboard */,
 				048E566B1F8E2C2400D1B97A /* Info.plist */,
 			);
 			path = BY12306;
+			sourceTree = "<group>";
+		};
+		048E56751F8E35A300D1B97A /* 12306 */ = {
+			isa = PBXGroup;
+			children = (
+				048E56711F8E339600D1B97A /* My12306TableView.swift */,
+				048E56731F8E33CB00D1B97A /* My12306Cell.swift */,
+			);
+			path = 12306;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048E56721F8E339600D1B97A /* My12306TableView.swift in Sources */,
 				048E56621F8E2C2400D1B97A /* ViewController.swift in Sources */,
+				04AF9DD61F8F8DC800D7F6FB /* OrderTrackView.swift in Sources */,
+				04B4E6E61F93B459005B553F /* EditContact.swift in Sources */,
+				04B4E6E41F923578005B553F /* AddPassengerTable.swift in Sources */,
+				048E56771F8E37F200D1B97A /* BusinessTableView.swift in Sources */,
+				04210F1D1F8F09F800E0ED96 /* SheduleTicketsViewController.swift in Sources */,
+				042628381F977DDD0083DBE0 /* TrainInformation.swift in Sources */,
+				048E56741F8E33CB00D1B97A /* My12306Cell.swift in Sources */,
 				048E56601F8E2C2400D1B97A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RLZ5KL6DA7;
 				INFOPLIST_FILE = BY12306/Info.plist;
@@ -281,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BY.BY12306;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RLZ5KL6DA7;
 				INFOPLIST_FILE = BY12306/Info.plist;
@@ -296,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BY.BY12306;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

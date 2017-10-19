@@ -8,10 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var itemNameArray = [#imageLiteral(resourceName: "Item_tickets"),#imageLiteral(resourceName: "Item_business"),#imageLiteral(resourceName: "Item_order"),#imageLiteral(resourceName: "Item_my")]
+        let items = self.tabBar.items
+        for i in 0..<items!.count{
+            items![i].image = itemNameArray[i].withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
