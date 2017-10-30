@@ -65,7 +65,11 @@ as! UITableViewCell
         }
         return cell
     }
-
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alertController = UIAlertController(title: "温馨提示", message: "订票完成", preferredStyle: .alert)
+        let YESAction = UIAlertAction(title: "确定", style: .default, handler: nil)
+        alertController.addAction(YESAction)
+        self.present(alertController, animated: true, completion: nil)
+    }
 
 }

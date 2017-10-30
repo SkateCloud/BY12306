@@ -328,7 +328,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IQI-83-WP5" kind="presentation" id="3OG-tW-ye2"/>
+                                    <segue destination="bTU-2j-h2l" kind="show" id="3OG-tW-ye2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--------------------最近常用路线--------------------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vu1-Sn-OP8">
@@ -672,7 +672,7 @@
             </objects>
             <point key="canvasLocation" x="-642" y="-1630"/>
         </scene>
-        <!--Train Information-->
+        <!--查询结果-->
         <scene sceneID="8cd-T7-R18">
             <objects>
                 <tableViewController id="IQI-83-WP5" customClass="TrainInformation" customModule="BY12306" customModuleProvider="target" sceneMemberID="viewController">
@@ -695,10 +695,17 @@
                             <outlet property="delegate" destination="IQI-83-WP5" id="7O5-q7-JmD"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="查询结果" id="KZb-Gn-9BW">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="bcg-7N-UVV">
+                            <connections>
+                                <segue destination="lfb-YG-f96" kind="showDetail" id="akE-5W-eNo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dD-UJ-EEC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="214" y="-1630"/>
+            <point key="canvasLocation" x="911" y="-1631"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1aL-1y-NMd">
@@ -716,8 +723,27 @@
             </objects>
             <point key="canvasLocation" x="214" y="-869"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IjX-rs-oHK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bTU-2j-h2l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4xy-tY-bMl">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IQI-83-WP5" kind="relationship" relationship="rootViewController" id="FbP-72-50V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3w3-cT-jc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="212.80000000000001" y="-1630.8845577211396"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="akE-5W-eNo"/>
         <segue reference="8sX-76-0p2"/>
     </inferredMetricsTieBreakers>
 </document>
